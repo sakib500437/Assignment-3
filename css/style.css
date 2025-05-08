@@ -12,7 +12,48 @@ body{
 }
 :root{
     --primary-color: #E76F51;
+    --white: #fff;
+    --black: #000;
 }
 /** Same Classes */
-
+.primary-btn{
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: bold;
+    padding: 10px 40px ;
+    font-size: 20px;
+}
+.primary-btn:hover{
+    background-color: #ca5537;
+    color: var(--white);
+}
 /* Main Style */
+/** Header Section Start */
+
+.navbar-item ul li {
+    margin-right: 20px;
+}
+.navbar-item ul li a{
+    font-size: 1rem;
+    color: var(--white);
+}
+.navbar-item ul li a:hover{
+    color: rgb(236, 236, 236);
+}
+
+/** Header Section End */
+
+
+/** Media Query */
+@media (max-width: 1200px) {
+    .primary-btn{
+        padding: 8px 30px ;
+        font-size: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .primary-btn{
+        padding: 6px 25px ;
+        font-size: 18px;
+    }
+}
