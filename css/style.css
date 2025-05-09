@@ -155,6 +155,43 @@ body{
     color: var(--white) !important;
 }
 /** News Section End */
+/** Client-review Section Start */
+#client-review{
+    margin-top: 20px;
+    /* margin-bottom: 70px; */
+}
+.client-review-head{
+    margin-bottom: 45px;
+}
+.client-review-head span{
+    color: var(--primary-color);
+}
+.client-review-container{
+    padding: 40px 35px 20px ;
+    margin-bottom: 80px;
+}
+.client-review-container .client-img{
+    margin-bottom: 30px;
+}
+.client-review-container .client-img img{
+    width: 149px;
+}
+.rating-box > img{
+    width: 23px;
+}
+.rating-box .empty-star-box{
+    width: 21px;
+    height: 21px;
+}
+.client-review-content p, .rating-box, .review-link{
+    margin-bottom: 15px;
+}
+.review-link> a , h6{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+/** Client-review Section End */
 
 
 /** Media Query */
