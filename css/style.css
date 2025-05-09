@@ -207,6 +207,32 @@ body{
     width: 380px;
 }
 /** FAQ Section End */
+/** Footer Section Start */
+#footer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: var(--black);
+    color: var(--white);
+}
+.footer-menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-menu ul li a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-menu .menu-3{
+    font-size: 13px;
+}
+.footer-app p{
+    font-size: 18px;
+}
+.footer-app img{
+    margin-bottom: 15px;
+}
+/** Footer Section End */
 
 
 /** Media Query */
