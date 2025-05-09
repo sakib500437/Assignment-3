@@ -192,6 +192,21 @@ body{
 
 }
 /** Client-review Section End */
+/** FAQ Section Start */
+#faq{
+    margin-top: 20px ;
+    margin-bottom: 10px;
+}
+.faq-head{
+    margin-bottom: 40px;
+}
+.faq-head span{
+    color: var(--primary-color);
+}
+.faq-card .faq-card-img img{
+    width: 380px;
+}
+/** FAQ Section End */
 
 
 /** Media Query */
