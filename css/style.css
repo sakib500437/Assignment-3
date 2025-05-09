@@ -29,7 +29,15 @@ body{
 }
 /* Main Style */
 /** Header Section Start */
-
+#header-section{
+    height: 100vh ;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.767) 0%, rgba(0, 0, 0, 0.486) 50%, rgba(0, 0, 0, 0.212) 100%), url(../image/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+/* Navbar */
 .navbar-item ul li {
     margin-right: 20px;
 }
@@ -40,7 +48,26 @@ body{
 .navbar-item ul li a:hover{
     color: rgb(236, 236, 236);
 }
-
+/* Hero Section */
+#hero{
+    height: 90%;
+}
+.hero-content{
+    margin-left: 100px;
+    height: 100%;
+}
+.hero-content h1{
+    font-size: 65px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.hero-content p{
+    margin-top: 50px;
+    line-height: 2;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
 /** Header Section End */
 
 
@@ -50,10 +77,67 @@ body{
         padding: 8px 30px ;
         font-size: 20px;
     }
+    /* Hero */
+    .hero-content h1{
+        font-size: 58px;
+    }
+    .hero-content p{
+        margin-top: 30px;
+    }
 }
 @media (max-width: 992px) {
     .primary-btn{
         padding: 6px 25px ;
         font-size: 18px;
+    }
+    /* Hero  */
+
+    .hero-content h1{
+        font-size: 50px;
+        margin-top: -130px;
+    }
+    .hero-content p{
+        margin-top: 25px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .primary-btn{
+        padding: 5px 22px ;
+        font-size: 16px;
+    }
+    /* Hero  */
+    .hero-content{
+        margin-left: 60px;
+        height: 100%;
+        justify-content: center;
+    }
+    .hero-content h1{
+        font-size: 42px;
+        margin-top: -120px;
+    }
+    .hero-content p{
+        margin-top: 30px;
+        line-height: 1.7;
+        margin-bottom: 40px;
+
+    }
+}
+@media (max-width: 520px) {
+    .hero-content{
+        margin-left: 10px;
+        height: 100%;
+    }
+    .hero-content h1{
+        font-size: 36px;
+        margin-top: -120px;
+    }
+    .hero-content p{
+        margin-top: 30px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+        padding-right: 20px;
     }
 }
